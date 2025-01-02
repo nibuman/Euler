@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1424640572 source:/home/nick/Documents/Programming/Euler/digit.cc
+	"digit.h"
+	<iostream>
+
+1424554228 /home/nick/Documents/Programming/Euler/digit.h
+
+1424647358 source:/home/nick/Documents/Programming/Euler/digitarray2.cc
+	"digit.h"
+	"digitarray2.h"
+	"math.h"
+	<iostream>
+	<new>
+
+1424628420 /home/nick/Documents/Programming/Euler/digitarray2.h
+
+1414017964 source:/home/nick/Documents/Programming/Euler/Problem145.cpp
+	<iostream>
+	"digit.h"
+	"digitarray2.h"
+	"math.h"
+
+1424641960 source:/home/nick/Documents/Programming/Euler/Problem145/main.cpp
+	<iostream>
+	"../digit.h"
+	"../digitarray2.h"
+	"math.h"
+	<new>
+

@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1353190874 source:/home/nick/Documents/Programming/Euler/Project Euler/main.cpp
+	<iostream>
+
+1353191130 source:/home/nick/Documents/Programming/Euler/primelist.cc
+	"primelist.h"
+	<iostream>
+	<new>
+	<cassert>
+
+1352762322 /home/nick/Documents/Programming/Euler/primelist.h
+
+1359756857 source:/home/nick/Documents/Programming/Euler/Project Euler/Problem300.cpp
+	<iostream>
+	<string>
+	"../include/conformations.h"
+
+1359752532 /home/nick/Documents/Programming/Euler/include/conformations.h
+	<list>
+	<bitset>
+	<string>
+	<iostream>
+	<new>
+
+1359756547 source:/home/nick/Documents/Programming/Euler/src/conformations.cpp
+	"../include/conformations.h"
+

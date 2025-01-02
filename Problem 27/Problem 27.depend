@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1442009834 source:/home/nick/Documents/Programming/Euler/primelist.cc
+	"primelist.h"
+	<iostream>
+	<new>
+	<cassert>
+
+1352762322 /home/nick/Documents/Programming/Euler/primelist.h
+
+1442009805 source:/home/nick/Documents/Programming/Euler/Problem 27/main.cpp
+	<iostream>
+	<new>
+	"../primelist.h"
+

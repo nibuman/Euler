@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1425251837 source:/home/nick/Documents/Programming/Euler/Problem142/main.cpp
+	<iostream>
+	"math.h"
+
