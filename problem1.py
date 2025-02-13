@@ -2,7 +2,7 @@
 # requires-python = ">=3.13"
 # dependencies = []
 # ///
-
+import time
 
 def linear_time(max_number: int) -> int:
     """Solves in linear time by looping through all the numbers from 1 to 1000"""
@@ -23,5 +23,11 @@ def constant_time(max_number: int) -> int:
 
 
 if __name__ == "__main__":
+    t0 = time.time()
     assert linear_time(999) == 233168
+    t1 = time.time()
+    print(f"Linear time completed in {(t1-t0) * 1E6} us")
+    t0 = time.time()
     assert constant_time(999) == 233168
+    t1 = time.time()
+    print(f"Constant time completed in {(t1-t0) * 1E6} us")
